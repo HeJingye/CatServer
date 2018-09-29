@@ -14,7 +14,6 @@ import com.mojang.util.QueueLogAppender;
 import jline.console.ConsoleReader;
 
 import java.io.OutputStream;
-//import org.bukkit.craftbukkit.libs.jline.console.ConsoleReader;
 
 public class TerminalConsoleWriterThread implements Runnable
 {

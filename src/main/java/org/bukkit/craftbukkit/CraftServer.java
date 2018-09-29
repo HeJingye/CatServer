@@ -24,7 +24,6 @@ import org.bukkit.craftbukkit.generator.CraftChunkData;
 import io.netty.buffer.ByteBuf;
 import io.netty.handler.codec.base64.Base64;
 import jline.console.ConsoleReader;
-import luohuayu.CatServer.CatServerLogger;
 import luohuayu.CatServer.command.CraftSimpleCommandMap;
 
 import java.io.OutputStream;
@@ -250,7 +249,7 @@ public final class CraftServer implements Server
     
     public CraftServer(final MinecraftServer console, final PlayerList playerList) {
         this.bukkitVersion = Versioning.getBukkitVersion();
-        this.logger = CatServerLogger.getLogger("Minecraft");
+        this.logger = Logger.getLogger("Minecraft");
         this.servicesManager = new SimpleServicesManager();
         this.scheduler = new CraftScheduler();
         this.commandMap = new SimpleCommandMap(this);

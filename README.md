@@ -1,8 +1,5 @@
 # CatServer
 Minecraft 1.10.2/1.12.2 Forge+Bukkit服务端 <br> <br>
-项目已迁移到码云: https://gitee.com/CatServer <br>
-项目已迁移到码云: https://gitee.com/CatServer <br>
-项目已迁移到码云: https://gitee.com/CatServer <br>
 
 开发/反馈QQ群: 801482055<br>
 Telegram group: @CatServer
@@ -18,6 +15,7 @@ Telegram group: @CatServer
 2.更新依赖模块: git submodule update --init --recursive<br>
 3.构建项目: ./gradlew build<br>
 
-### 1.12.2构建
-git clone https://gitee.com/CatServer/CatServer.git<br>
-gradlew build<br>
+### 1.12.2构建 [开发中]
+1.克隆: git clone https://gitee.com/CatServer/CatServer.git<br>
+2.构建项目: gradlew build<br>
+3.转储lib文件: gradlew dumpLibs
